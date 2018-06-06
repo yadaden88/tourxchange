@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.Optional;
 
 @Data
-@Builder
+@Builder(toBuilder = true)
 public class Order {
     @NonNull
     private final BigDecimal price;
