@@ -1,5 +1,6 @@
 package ru.mtour.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -7,6 +8,7 @@ import java.time.LocalDate;
 import java.util.Optional;
 
 @Data
+@Builder
 public class Order {
     private final BigDecimal price;
     private final LocalDate start;
