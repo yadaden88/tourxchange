@@ -12,6 +12,6 @@ public interface TourFeed {
 
     Optional<TourInfo> getMinimalPriceTour(Order order);
 
-    Map<LocalDate, BigDecimal> getPricesForCountry(String coutryCode, LocalDate startDate, int periods);
+    Map<LocalDate, BigDecimal> getPricesForCountry(String country, LocalDate startDate, int periods);
 
 }
